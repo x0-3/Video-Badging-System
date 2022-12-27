@@ -1,0 +1,14 @@
+[PROJECT]
+Target=InitProjet.hex
+Processor_Text=PIC18F2685
+CCSVersion=5.045
+Compiler=PCH
+[Target Data]
+FileList=InitProjet.c
+[InitProjet.c]
+Type=4
+[mru-list]
+1=InitProjet.c
+[Units]
+Count=1
+1=InitProjet (main)

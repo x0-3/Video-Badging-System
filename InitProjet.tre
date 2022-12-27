@@ -1,0 +1,45 @@
+ÀÄInitProjet
+   ÀÄMAIN  0/198  Ram=1
+      ÃÄ@cinit1  (Inline)  Ram=0
+      ÃÄinit_pic  0/16  Ram=0
+      ÃÄAccueil  0/26  Ram=1
+      ³  ÃÄLcdInit  0/88  Ram=0
+      ³  ³  ÃÄ@delay_ms1  0/38  Ram=1
+      ³  ³  ÃÄ@delay_ms1  0/38  Ram=1
+      ³  ³  ÃÄLcdSend  0/56  Ram=4
+      ³  ³  ÃÄLcdSend  0/56  Ram=4
+      ³  ³  ÃÄLcdSend  0/56  Ram=4
+      ³  ³  ÃÄLcdSend  0/56  Ram=4
+      ³  ³  ÃÄLcdSend  0/56  Ram=4
+      ³  ³  ÀÄLcdSend  0/56  Ram=4
+      ³  ÃÄImageLcd  0/110  Ram=7
+      ³  ³  ÃÄLcdGotoXY  0/34  Ram=3
+      ³  ³  ³  ÃÄLcdSend  0/56  Ram=4
+      ³  ³  ³  ÀÄLcdSend  0/56  Ram=4
+      ³  ³  ÃÄ@MUL1616  0/30  Ram=5
+      ³  ³  ÃÄ@const913  0/524  Ram=0
+      ³  ³  ÃÄLcdSend  0/56  Ram=4
+      ³  ³  ÀÄLcdGotoXY  0/34  Ram=3
+      ³  ³     ÀÄ*
+      ³  ÃÄ@delay_ms2  0/38  Ram=1
+      ³  ÀÄFill_Lcd  0/62  Ram=4
+      ³     ÃÄLcdGotoXY  0/34  Ram=3
+      ³     ³  ÀÄ*
+      ³     ÃÄLcdSend  0/56  Ram=4
+      ³     ÀÄLcdGotoXY  0/34  Ram=3
+      ³        ÀÄ*
+      ÃÄLcdString  0/82  Ram=5
+      ³  ÃÄLcdGotoXY  0/34  Ram=3
+      ³  ³  ÀÄ*
+      ³  ÃÄLcdChar  0/100  Ram=4
+      ³  ³  ÃÄ@MUL1616  0/30  Ram=5
+      ³  ³  ÃÄ@const905  0/488  Ram=0
+      ³  ³  ÀÄLcdSend  0/56  Ram=4
+      ³  ÃÄLcdSend  0/56  Ram=4
+      ³  ÀÄLcdGotoXY  0/34  Ram=3
+      ³     ÀÄ*
+      ÃÄLcdString  0/82  Ram=5
+      ³  ÀÄ*
+      ÃÄ@delay_ms2  0/38  Ram=1
+      ÀÄFill_Lcd  0/62  Ram=4
+         ÀÄ*

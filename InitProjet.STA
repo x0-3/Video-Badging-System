@@ -1,0 +1,66 @@
+
+ROM used:   1894/97472 (2%)
+            1894/97472 (2%) including unused fragments
+
+            0.5 Average locations per line
+            4.0 Average locations per statement
+
+RAM used:   50/3316 (2%) at main() level
+            63/3316 (2%) worst case
+
+Stack used: 0 worst case (0 in main + 0 for interrupts)
+Stack size: 30
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  127    16   3  InitProjet.c
+   27     0   0  base.h
+  754     0   0  18F2685.h
+   37     0   0  stdio.h
+  435     0   0  string.h
+   32     0   0  stddef.h
+   28     0   0  ctype.h
+ 1351   359  75  stdlib.h
+  705   104  22  nokia3310.c
+----- -----
+ 3496   479 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0     38   1    1             @delay_ms1
+0     30   1    5             @MUL1616
+0    488  13    0             @const905
+0    524  14    0             @const913
+0     56   1    4    362  6.1  LcdSend
+0     88   2    0    409  2.4  LcdInit
+0     34   1    3    140  2.8  LcdGotoXY
+0     62   2    4    410  6.1  Fill_Lcd
+0    100   3    4    322  6.5  LcdChar
+0     82   2    5    270  5.5  LcdString
+0    110   3    7    334  5.6  ImageLcd
+0     38   1    1             @delay_ms2
+0     26   1    1     55  1.1  Accueil
+0     16   0    0     48  1.1  init_pic
+0    198   5    1    183  2.2  MAIN
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               10
+    Statements              479
+    Comments                996
+    Volume (V)              4098
+    Difficulty (D)          38.6
+    Effort to implement (E) 157994
+    Time to implement (T)   2 hours, 26 minutes
+    Est Delivered Bugs (B)  1
+    Cyclomatic Complexity   12
+    Maintainability (MI)    89
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-0FFFE  1890  63642  
+10000-17CBE     0  31936  
+
+
+

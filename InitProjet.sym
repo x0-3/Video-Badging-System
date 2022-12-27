@@ -1,0 +1,122 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004-005 strtok.save
+006-009 _Randseed
+00A     Adr_X
+00B     Adr_Y
+00C     rs232_errors
+00D-01C text1
+01D-030 text2
+031-032 ImageLcd.x
+031     @delay_ms1.P1
+031     Fill_Lcd.Coul_Lcd
+031     LcdString.x
+031     Accueil.@SCRATCH1
+031     MAIN.@SCRATCH1
+032     LcdString.y
+032     @delay_ms2.P1
+032     Fill_Lcd.x
+033     Fill_Lcd.y
+033-034 ImageLcd.y
+033-034 LcdString.Phrase
+034     Fill_Lcd.b
+035     LcdString.@SCRATCH1
+035     ImageLcd.@SCRATCH1
+036     LcdGotoXY.x
+036     LcdChar.c
+036     ImageLcd.@SCRATCH2
+037     LcdGotoXY.y
+037     LcdChar.i
+037     ImageLcd.@SCRATCH3
+038     LcdGotoXY.@SCRATCH1
+038     LcdChar.@SCRATCH1
+039     LcdSend.data
+039     LcdChar.@SCRATCH2
+03A     LcdSend.CD
+03A-03B @MUL1616.P1
+03B     LcdSend.i
+03C-03D @MUL1616.P1
+03C     LcdSend.@SCRATCH1
+03E     @MUL1616.@SCRATCH1
+FBE     CCP_1
+FBE     CCP_1_LOW
+FBF     CCP_1_HIGH
+FE1-FE2 @READ_PACKED_MEMORY.P1
+FE1-FE2 @WRITE_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PROGRAM_MEMORY.P1
+FE9-FEA @WRITE_PACKED_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P3
+FE9-FEA @READ_PACKED_MEMORY.P4
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P1
+FF6-FF8 @READ_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+000004  FontLookup.call
+000016  FontLookup.data
+0001EC  Image_Accueil.call
+0001FE  Image_Accueil.data
+0003F8  init_pic
+000408  @delay_ms1
+00042E  LcdSend
+000466  LcdInit
+0004BE  LcdGotoXY
+0004E0  @MUL1616
+0004FE  ImageLcd
+00056C  @delay_ms2
+000592  Fill_Lcd
+0005D0  Accueil
+0005EA  LcdChar
+00064E  LcdString
+0006A0  MAIN
+0006A0  @cinit1
+0006C0  @cinit2
+0136  StrtoulGO
+0136  StrtolGO
+
+Project Directory:
+    D:\Users\ldessort1\Documents\
+
+Project Files:
+    InitProjet.c                                            [06-mai-22 11:51  CRC=FC1394E3]
+    base.h                                                  [07-avr.-22 11:01  CRC=69AA350E]
+    18F2685.h                                               [17-avr.-15 15:50  CRC=A7B7C126]
+    stdio.h                                                 [31-juil.-07 15:24  CRC=4E4534F4]
+    string.h                                                [26-mars-15 13:34  CRC=C4814297]
+    stddef.h                                                [05-sept.-14 12:47  CRC=897CEC6C]
+    ctype.h                                                 [03-janv.-08 15:55  CRC=2D1F019F]
+    stdlib.h                                                [07-déc.-14 18:58  CRC=07F0FCBD]
+    nokia3310.c                                             [04-avr.-16 11:05  CRC=A1C407F1]
+
+Source signature=2250FD4C
+Program memory checksum=0000
+Program memory CRC=0000
+Hex file CRC=DCD5
+
+Units:
+    InitProjet (main)
+
+Compiler Settings:
+    Processor:      PIC18F2685
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    ICD Provisions: Yes
+    Compile Mode:       CCS5
+    Predefined symbols:
+       #define __DEBUG 1
+       #define __18F2685 TRUE
+
+Output Files:
+    Errors:      InitProjet.err
+    INHX32:      InitProjet.hex
+    Symbols:     InitProjet.sym
+    List:        InitProjet.lst
+    Debug/COFF:  InitProjet.cof
+    Project:     InitProjet.ccspjt
+    Call Tree:   InitProjet.tre
+    Statistics:  InitProjet.STA

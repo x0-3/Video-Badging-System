@@ -1,0 +1,55 @@
+_RETURN_
+CCP_1
+CCP_1_LOW
+CCP_1_HIGH
+_Randseed
+Adr_X
+Adr_Y
+FontLookup
+MyFontTab
+Image_Accueil
+Image_Accueil1
+Image_Accueil2
+Image_Accueil3
+Image_Accueil4
+rs232_errors
+text1
+text2
+
+Project Directory:
+    D:\Users\ldessort1\Documents\
+
+Project Files:
+    InitProjet.c                                            [06-mai-22 09:43  CRC=78C36B8B]
+    base.h                                                  [07-avr.-22 11:01  CRC=69AA350E]
+    18F2685.h                                               [17-avr.-15 15:50  CRC=A7B7C126]
+    stdio.h                                                 [31-juil.-07 15:24  CRC=4E4534F4]
+    string.h                                                [26-mars-15 13:34  CRC=C4814297]
+    stddef.h                                                [05-sept.-14 12:47  CRC=897CEC6C]
+    ctype.h                                                 [03-janv.-08 15:55  CRC=2D1F019F]
+    stdlib.h                                                [07-déc.-14 18:58  CRC=07F0FCBD]
+    nokia3310.c                                             [04-avr.-16 11:05  CRC=A1C407F1]
+
+Source signature=9F00D3F4
+
+Units:
+    InitProjet (main)
+
+Compiler Settings:
+    Processor:      PIC18F2685
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    ICD Provisions: Yes
+    Output file:    Relocatable
+    Compile Mode:       CCS5
+    Predefined symbols:
+       #define __DEBUG 1
+       #define __18F2685 TRUE
+
+Output Files:
+    Errors:      InitProjet.err
+    Object:      InitProjet.o
+    Symbols:     InitProjet.osym
