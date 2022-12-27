@@ -6,24 +6,24 @@ This project aims to develop a secure access control system for a site or locati
 
 ## Features  
 - Secure access control for a site or location
--Verification of user identity using a badge
--Visual verification using a camera
--Electronic verification using information stored on the badge
--Display of access information on an LCD screen
--LED indicator to show access status
--Automatic door opening after successful verification  
+- Verification of user identity using a badge
+- Visual verification using a camera
+- Electronic verification using information stored on the badge
+- Display of access information on an LCD screen
+- LED indicator to show access status
+- Automatic door opening after successful verification  
   
 
 
 
 ## Documentation  
-- Official documentation for video badging systems
--Nokia 5110 LCD display
--I2C communication
--PIC18F2685-I/SO microcontroller
--ICSP programming
--MCP1703_33 voltage regulator
--RGB LED  
+- <a href="https://www.fiberplusinc.com/systems-offered/video-badging-visual-form-security/" target="_blank">Official documentation</a> for video badging systems
+- <a href="https://components101.com/displays/nokia-5110-lcd" target="_blank">Nokia 5110 LCD display</a>
+- <a href="https://lewebpedagogique.com/isneiffel/files/2017/06/Liaison-I2C.pdf" target="_blank">I2C communication</a>
+- <a href="http://ww1.microchip.com/downloads/en/devicedoc/39761b.pdf" target="_blank">PIC18F2685-I/SO microcontroller</a>
+- <a href="https://ww1.microchip.com/downloads/en/DeviceDoc/31028a.pdf" target="_blank">ICSP programming</a>
+- <a href="https://ww1.microchip.com/downloads/en/DeviceDoc/22049f.pdf" target="_blank">MCP1703_33 voltage regulator</a>
+- <a href="https://components101.com/diodes/rgb-led-pinout-configuration-circuit-datasheet" target="_blank">RGB LED</a>  
   
 
 
@@ -32,11 +32,11 @@ This project aims to develop a secure access control system for a site or locati
 The hardware for this project includes:  
   
 
-- Nokia 5110 LCD display
--PIC18F2685-I/SO microcontroller
--MCP1703_33 voltage regulator
--RGB LED
--Various capacitors, resistors, and diodes  
+- Nokia 5110 LCD display 
+- PIC18F2685-I/SO microcontroller
+- MCP1703_33 voltage regulator
+- RGB LED
+- Various capacitors, resistors, and diodes  
   
 
 
